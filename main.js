@@ -112,7 +112,7 @@ const showOutput = (outputValues) => {
         `
     document.querySelector('.output-bottom-left').innerHTML = `
         <p class = "text-justify">   
-        Your monthly SIP investment of <strong> ${outputValues.pmt} </strong> Taka
+        Your monthly SIP investment of <strong> ${outputValues.pmt} Taka </strong> 
         </p>
         `
         document.querySelector('.output-bottom-right').innerHTML = `
