@@ -61,13 +61,13 @@
     border: 1px solid #B02A30;
 }
 
-#wealth-creation .calculator-area-input button {
+#wealth-creation .calculator-area button {
     border-radius: 50px;
     background-color: #B02A30;
     border: 1px solid #fff;
 }
 
-#wealth-creation .calculator-area-input button:hover {
+#wealth-creation .calculator-area button:hover {
     background-color: #FDF5E1;
     border: 1px solid #B02A30;
     color: #B02A30;
@@ -145,3 +145,17 @@
 }
 
 #wealth-creation strong{font-size: 2rem; color: #EF4B27;}
+#wealth-creation .back-button{
+    background-color: #EF4B2E;
+    color: #fff;
+}
+#wealth-creation .calculate-button {
+    background-color: #F27023;
+    color: #fff;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#wealth-creation .calculate-button:hover{background-color: #fff; border: 1px solid #F27023; color: #F27023;}
