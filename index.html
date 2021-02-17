@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Child Education Investor Calculator</title>
+    <title>Child Education Investor Input Calculator</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -15,7 +15,7 @@
     <section id="calculator">
         <div class="container wealth-creation">
             <div id="calculator-area" class="calculator-area">
-                <h2 class="text-center mb-2">Child Education Investor Calculator</h2>
+                <h2 class="text-center mb-2">Child Education Investor Input Calculator</h2>
                 <div class="d-block mb-5">
                     <hr class="line m-auto">
                 </div>
@@ -167,16 +167,13 @@
                                             </div>
                                             <div id="wealth-risk-question-area" class="modal-body">
                                                 <div class="text-center">
-                                                    <h4 class="text-center" id="exampleModalLabel">Calculate Risk and
-                                                        Demographic Score</h4>
-                                                    <p class="text-center">6Questions to know your demographic style</p>
+                                                    <h4 class="text-center" id="exampleModalLabel">Risk Profile Calculation</h4>
+                                                    <p class="text-center">Questions to know your demographic style</p>
                                                 </div>
                                                 <div class="container">
                                                     <!-- question box 1-->
                                                     <div id="wealth-question-one" class="question-box">
-                                                        <h5 class="">What is the first though to cross your mind, when
-                                                            you invest your money?</h5>
-
+                                                        <h5 class="">The first comes to your mind while investing.</h5>
                                                         <div class="question-area mb-3">
                                                             <div class="form-check">
                                                                 <input onclick="getNeedHelpQuestionValue('question-1-option-1','question-one-weight','question-one-option',.15)" class="form-check-input" type="radio"
@@ -184,7 +181,7 @@
                                                                     value="1">
                                                                 <label class="form-check-label"
                                                                     for="question-1-option-1">
-                                                                    I should not loose my money
+                                                                    I must ensure the capital retaining.
                                                                 </label>
                                                             </div>
                                                             <div class="form-check">
@@ -192,7 +189,7 @@
                                                                     name="flexRadioDefault" id="question-1-option-2" value="2">
                                                                 <label class="form-check-label"
                                                                     for="question-1-option-2">
-                                                                    This should not turn out to be a bad investment
+                                                                    I must have enough return with minimum risk.
                                                                 </label>
                                                             </div>
                                                             <div class="form-check">
@@ -200,7 +197,7 @@
                                                                     name="flexRadioDefault" id="question-1-option-3" value="3">
                                                                 <label class="form-check-label"
                                                                     for="question-1-option-3">
-                                                                    This should turn out to be a good investment
+                                                                    I must have enough return.
                                                                 </label>
                                                             </div>
                                                             <div class="form-check">
@@ -208,7 +205,7 @@
                                                                     name="flexRadioDefault" id="question-1-option-4" value="4">
                                                                 <label class="form-check-label"
                                                                     for="question-1-option-4">
-                                                                    I know this is a good decision
+                                                                    I should go for the investment.
                                                                 </label>
                                                             </div>
                                                             
@@ -228,8 +225,7 @@
 
                                                     <!-- question box 2-->
                                                     <div id="wealth-question-two" class="question-box">
-                                                        <h5 class="">What do you normally associate with the world
-                                                            'risk'?</h5>
+                                                        <h5 class="">You think when you hear about "Risk".</h5>
 
                                                         <div class="question-area mb-3">
                                                             <div class="form-check">
@@ -238,7 +234,7 @@
                                                                      value="1">
                                                                 <label class="form-check-label"
                                                                     for="question-2-option-1">
-                                                                    Danger
+                                                                    Financial harm.
                                                                 </label>
                                                             </div>
                                                             <div class="form-check">
@@ -246,7 +242,7 @@
                                                                     name="flexRadioDefault" id="question-2-option-2" value="2">
                                                                 <label class="form-check-label"
                                                                     for="question-2-option-2">
-                                                                    Uncertainty
+                                                                    May get harmed.
                                                                 </label>
                                                             </div>
                                                             <div class="form-check">
@@ -254,7 +250,7 @@
                                                                     name="flexRadioDefault" id="question-2-option-3" value="3">
                                                                 <label class="form-check-label"
                                                                     for="question-2-option-3">
-                                                                    Opportunity
+                                                                    Opportunity to cut some benefit by getting the risk.
                                                                 </label>
                                                             </div>
                                                             <div class="form-check">
@@ -262,7 +258,7 @@
                                                                     name="flexRadioDefault" id="question-2-option-4" value="4">
                                                                 <label class="form-check-label"
                                                                     for="question-2-option-4">
-                                                                    Thrill
+                                                                    Its very natural concern.
                                                                 </label>
                                                             </div>
                                                         </div>
@@ -281,8 +277,7 @@
 
                                                     <!-- question box 3-->
                                                     <div id="wealth-question-three" class="question-box">
-                                                        <h5 class="">Would you prefer to run your own business or be a
-                                                            salaried employee?</h5>
+                                                        <h5 class="">Your earning preferences.</h5>
 
                                                         <div class="question-area mb-3">
                                                             <div class="form-check">
@@ -291,7 +286,7 @@
                                                                      value="1">
                                                                 <label class="form-check-label"
                                                                     for="question-3-option-1">
-                                                                    Being a salaried employee
+                                                                    I should get a job to get salaries regularly.
                                                                 </label>
                                                             </div>
                                                             <div class="form-check">
@@ -299,8 +294,7 @@
                                                                     name="flexRadioDefault" id="question-3-option-2" value="2">
                                                                 <label class="form-check-label"
                                                                     for="question-3-option-2">
-                                                                    Being a salaried employee while running a part-time
-                                                                    business
+                                                                    I should try to do some business along with my job.
                                                                 </label>
                                                             </div>
                                                             <div class="form-check">
@@ -308,7 +302,7 @@
                                                                     name="flexRadioDefault" id="question-3-option-3" value="3">
                                                                 <label class="form-check-label"
                                                                     for="question-3-option-3">
-                                                                    Running a partnership business
+                                                                    I should run a business.
                                                                 </label>
                                                             </div>
                                                             <div class="form-check">
@@ -316,7 +310,7 @@
                                                                     name="flexRadioDefault" id="question-3-option-4" value="4">
                                                                 <label class="form-check-label"
                                                                     for="question-3-option-4">
-                                                                    Running my own business
+                                                                    I should get involved into a business with partners.
                                                                 </label>
                                                             </div>
                                                         </div>
@@ -335,8 +329,7 @@
 
                                                     <!-- question box 4-->
                                                     <div id="wealth-question-four" class="question-box">
-                                                        <h5 class="">To what extend would you expose your investments to
-                                                            risk, to earn higher returns?</h5>
+                                                        <h5 class="">You feel when you come to know about a financial loss.</h5>
 
                                                         <div class="question-area mb-3">
                                                             <div class="form-check">
@@ -345,7 +338,7 @@
                                                                      value="1">
                                                                 <label class="form-check-label"
                                                                     for="question-4-option-1">
-                                                                    None at all
+                                                                    I can not accept.
                                                                 </label>
                                                             </div>
                                                             <div class="form-check">
@@ -353,7 +346,7 @@
                                                                     name="flexRadioDefault" id="question-4-option-2" value="2">
                                                                 <label class="form-check-label"
                                                                     for="question-4-option-2" >
-                                                                    About 20%
+                                                                    I need to overcome the loss in future.
                                                                 </label>
                                                             </div>
                                                             <div class="form-check">
@@ -361,7 +354,7 @@
                                                                     name="flexRadioDefault" id="question-4-option-3" value="3">
                                                                 <label class="form-check-label"
                                                                     for="question-4-option-3">
-                                                                    About 40%
+                                                                    Its a normal concern in investing.
                                                                 </label>
                                                             </div>
                                                             <div class="form-check">
@@ -369,7 +362,7 @@
                                                                     name="flexRadioDefault" id="question-4-option-4" value="4">
                                                                 <label class="form-check-label"
                                                                     for="question-4-option-4">
-                                                                    More than 50%
+                                                                    I was doing business.
                                                                 </label>
                                                             </div>
                                                             
@@ -389,8 +382,7 @@
 
                                                     <!-- question box 5-->
                                                     <div id="wealth-question-five" class="question-box">
-                                                        <h5 class="">How would you feel if the performance of your
-                                                            recent investments are below expectations?</h5>
+                                                        <h5 class="">How much you put weight while thinking of investing about past performance of the business idea.</h5>
 
                                                         <div class="question-area mb-3">
                                                             <div class="form-check">
@@ -399,7 +391,7 @@
                                                                      value="1">
                                                                 <label class="form-check-label"
                                                                     for="question-5-option-1">
-                                                                    Very upset
+                                                                    I must consider the past performance of the business.
                                                                 </label>
                                                             </div>
                                                             <div class="form-check">
@@ -407,8 +399,7 @@
                                                                     name="flexRadioDefault" id="question-5-option-2" value="2">
                                                                 <label class="form-check-label"
                                                                     for="question-5-option-2">
-                                                                    Somewhat upset, but hope that it will improve in the
-                                                                    future
+                                                                    I should think.
                                                                 </label>
                                                             </div>
                                                             <div class="form-check">
@@ -416,7 +407,7 @@
                                                                     name="flexRadioDefault" id="question-5-option-3" value="3">
                                                                 <label class="form-check-label"
                                                                     for="question-5-option-3">
-                                                                    Uneasy but willing to take it in my stride
+                                                                    I may think about the past performance of the business.
                                                                 </label>
                                                             </div>
                                                             <div class="form-check">
@@ -424,8 +415,7 @@
                                                                     name="flexRadioDefault" id="question-5-option-4" value="4">
                                                                 <label class="form-check-label"
                                                                     for="question-5-option-4">
-                                                                    Not upset because I know that all investments carry
-                                                                    risk
+                                                                    Past does not determine future profit.
                                                                 </label>
                                                             </div>
                                                         </div>
@@ -497,9 +487,7 @@
                                                 <div class="modal-body">
                                                     <div class="container">
                                                         <div class="text-center mb-3">
-                                                            <h4 class="text-" id="exampleModalLabel">Calculate
-                                                                Demographic
-                                                                Score</h4>
+                                                            <h4 class="text-" id="exampleModalLabel">Your Demographic Score Card:</h4>
 
                                                         </div>
                                                         <div class="calculate-demographic-score">
@@ -522,7 +510,7 @@
                                                                                 for="gender2">Female</label>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="mb-3">
+                                                                    <!-- <div class="mb-3">
                                                                         <h5 for="">Income</h5>
                                                                         <div class="form-check form-check-inline">
                                                                             <input onclick="getNeedHelpQuestionValue('income1')" class="form-check-input" type="radio"
@@ -538,16 +526,15 @@
                                                                             <label class="form-check-label"
                                                                                 for="income2">Above 1 crore</label>
                                                                         </div>
-                                                                    </div>
+                                                                    </div> -->
                                                                     <div class="mb-3">
-                                                                        <h5 for="">Educational Background</h5>
+                                                                        <h5 for="">Education</h5>
                                                                         <div class="form-check form-check-inline">
                                                                             <input onclick="getNeedHelpQuestionValue('education1')" class="form-check-input" type="radio"
                                                                                 name="education"
                                                                                 id="education1" value="4" checked>
                                                                             <label class="form-check-label"
-                                                                                for="education1">Graduate &
-                                                                                Above</label>
+                                                                                for="education1">Graduation</label>
                                                                         </div>
                                                                         <div class="form-check form-check-inline">
                                                                             <input onclick="getNeedHelpQuestionValue('education2')" class="form-check-input" type="radio"
@@ -559,15 +546,14 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="mb-3">
-                                                                        <h5 for="">Indicative Investment Horizon</h5>
+                                                                        <h5 for="">Investment Horizon</h5>
                                                                         <div class="form-check form-check-inline">
                                                                             <input onclick="getNeedHelpQuestionValue('indicative-invest-1')" class="form-check-input" type="radio"
                                                                                 name="investmentHorizon"
                                                                                 id="indicative-invest-1"
                                                                                 value="4" checked>
                                                                             <label class="form-check-label"
-                                                                                for="indicative-invest-1">Below 3
-                                                                                years</label>
+                                                                                for="indicative-invest-1">Short term</label>
                                                                         </div>
                                                                         <div class="form-check form-check-inline">
                                                                             <input onclick="getNeedHelpQuestionValue('indicative-invest-2')" class="form-check-input" type="radio"
@@ -575,8 +561,7 @@
                                                                                 id="indicative-invest-2"
                                                                                 value="4" >
                                                                             <label class="form-check-label"
-                                                                                for="indicative-invest-2">Above 3
-                                                                                years</label>
+                                                                                for="indicative-invest-2">Long term</label>
                                                                         </div>
                                                                     </div>
 
@@ -591,16 +576,14 @@
                                                                                 name="age" id="age1"
                                                                                 value="2" checked>
                                                                             <label class="form-check-label"
-                                                                                for="age1">Below 60
-                                                                                years</label>
+                                                                                for="age1">Below 50</label>
                                                                         </div>
                                                                         <div class="form-check form-check-inline">
                                                                             <input onclick="getNeedHelpQuestionValue('age2')" class="form-check-input" type="radio"
                                                                                 name="age" id="age2"
                                                                                 value="2">
                                                                             <label class="form-check-label"
-                                                                                for="age2">Above 60
-                                                                                years</label>
+                                                                                for="age2">Above 50</label>
                                                                         </div>
                                                                     </div>
                                                                     <div class="mb-3">
@@ -621,27 +604,27 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="mb-3">
-                                                                        <h5 for="">Experience investing</h5>
+                                                                        <h5 for="">Experience in doing business</h5>
                                                                         <div class="form-check form-check-inline">
                                                                             <input onclick="getNeedHelpQuestionValue('investing1')" class="form-check-input" type="radio"
                                                                                 name="experienceInvesting"
                                                                                 id="investing1" value="2" checked>
                                                                             <label class="form-check-label"
-                                                                                for="investing1">Below 3 years</label>
+                                                                                for="investing1">Yeas</label>
                                                                         </div>
                                                                         <div class="form-check form-check-inline">
                                                                             <input onclick="getNeedHelpQuestionValue('investing2')" class="form-check-input" type="radio"
                                                                                 name="experienceInvesting"
                                                                                 id="investing2" value="2">
                                                                             <label class="form-check-label"
-                                                                                for="investing2">Above 3 years</label>
+                                                                                for="investing2">No</label>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class=" text-center mt-3">
-                                                            <button id="wealth-demographic-score-back" type="button"
+                                                            <button onclick="displayHide('wealth-risk-question-area','wealth-demographic-calculation')" id="wealth-demographic-score-back" type="button"
                                                                 class="btn btn-secondary">Back</button>
                                                             <button id="wealth-demographic-score-evaluate" type="button"
                                                                 class="btn btn-secondary">Evaluate Now</button>
